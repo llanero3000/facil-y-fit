@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f4ef;
+  --foreground: #3b3026;
+
+  --olive: #6e7a5a;
+  --olive-dark: #556044;
+  --brown: #5a463b;
+  --terracotta: #c47a5a;
+  --beige: #e8e1d4;
+  --cream: #f7f4ef;
+  --soft-white: #fffaf3;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope);
+}
+
+.brand-title {
+  font-family: var(--font-cormorant);
+  letter-spacing: -0.06em;
+}
+
+.mony-card {
+  background: rgba(255, 250, 243, 0.78);
+  border: 1px solid rgba(90, 70, 59, 0.12);
+  box-shadow: 0 24px 80px rgba(90, 70, 59, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.mony-button {
+  background: var(--olive);
+  color: white;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.mony-button:hover {
+  background: var(--olive-dark);
+  transform: translateY(-1px);
+}

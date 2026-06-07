@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Fácil y Fit</string>
+    <string name="title_activity_main">Fácil y Fit</string>
+    <string name="package_name">com.monyfit.facilyfit</string>
+    <string name="custom_url_scheme">com.monyfit.facilyfit</string>
+</resources>
